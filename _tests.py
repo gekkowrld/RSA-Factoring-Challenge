@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 # Import module to get the pseudorandom numbers to be used
-from random import randrange as _range, randint as _int
+from os import mkdir as _dir
+from os import path as _p
+from random import randint as _int
+from random import randrange as _range
 from sys import argv as args
-from os import path as _p, mkdir as _dir
 
 """
 The range should be from 1 to 20
