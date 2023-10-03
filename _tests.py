@@ -63,7 +63,7 @@ if __name__ == "__main__":
 	"""
 	try:
 		type = args[1]
-	except (IndexError, TypeError, OSError, ValueError):
+	except (IndexError, TypeError, ValueError):
 		type = "factors"
 
 	try:
