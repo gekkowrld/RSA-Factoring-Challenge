@@ -23,7 +23,7 @@ The maximum writeable file(s) are 1000
 
 def rsa_func():
     """Generate numbers for rsa challenge"""
-    num = ''
+    num = ""
     for _ in range(1, _range(1, 20)):
         num += str(_int(1, 9))
     return num
@@ -43,7 +43,7 @@ def factors_func():
     for _ in range(1, _range(1, 20)):
         for __ in range(1, _range(1, 30)):
             num += str(_int(1, 9))
-        num += '\n'
+        num += "\n"
 
     return num
 
