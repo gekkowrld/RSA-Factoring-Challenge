@@ -5,7 +5,6 @@ from os import path as _p
 from random import randint as _int
 from random import randrange as _range
 from sys import argv as args
-
 """
 The range should be from 1 to 20
 This is to avoid zero as a space lines and
