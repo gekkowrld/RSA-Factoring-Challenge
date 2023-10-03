@@ -59,7 +59,7 @@ def write_to_file(content, name: str):
     This function writes the output to a random file
     Incase you want better results, feel free to change
 
-    :param content:
+    :param content: param name: str:
     :param name: str:
 
     """
