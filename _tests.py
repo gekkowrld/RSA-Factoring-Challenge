@@ -34,7 +34,7 @@ def rsa_func():
 def file_exists(filename):
     """Check if a file is present or not
 
-    :param filename:
+    :param filename: 
 
     """
     if _p.exists(filename):
@@ -56,12 +56,12 @@ def factors_func():
 
 def write_to_file(content, name: str):
     """Write content to a file
-
+    
     This function writes the output to a random file
     Incase you want better results, feel free to change
 
-    :param content:
-    :param name: str:
+    :param content: param name: str:
+    :param name: str: 
 
     """
     name += str(_int(1, 10000))
