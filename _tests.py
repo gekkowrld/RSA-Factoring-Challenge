@@ -61,6 +61,7 @@ def write_to_file(content, name: str):
 
     :param content: param name: str:
     :param name: str:
+    :param name: str:
 
     """
     name += str(_int(1, 10000))
